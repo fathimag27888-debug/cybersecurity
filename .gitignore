@@ -1,0 +1,21 @@
+# Secrets / local environment (never commit)
+.env
+
+# Local database
+backend/database/security_platform.sqlite3
+
+# Python
+.venv/
+.venv-1/
+.venv313/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+
+# OS noise
+Thumbs.db
+.DS_Store
